@@ -1,8 +1,11 @@
 .mainh1 {
     text-align: center;
-    color:blueviolet
+    color:blueviolet;
+    font-size: clamp(30px, 6vw, 60px);
 }
 .image {
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
@@ -11,7 +14,8 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-    width: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 #noButton {
@@ -19,16 +23,16 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-    width: 100px;
+    max-width: 100%;
+    height: auto;
 }
 
 #message {
 
-    font-size: 30px;
+    font-size: clamp(30px, 6vw, 60px);
     text-align: center;
     margin-top: 0px;
-    color: blueviolet
-
+    color: blueviolet;
 
 }
 
