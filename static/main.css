@@ -16,9 +16,8 @@
     margin: 0 auto;
     max-width: 100%;
     height: auto;
-    font-size: 15;
-    padding: 18px 40px;
-    border-radius: 12px;
+    font-size: 18;
+
 
 }
 
@@ -29,9 +28,8 @@
     margin: 0 auto;
     max-width: 100%;
     height: auto;
-    font-size: 15px;
-    padding: 18px 40px;
-    border-radius: 12px;
+    font-size: 18px;
+ 
 }
 
 #message {
