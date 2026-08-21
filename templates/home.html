@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="mainh1">Majo, da li me voliš?</h1>
+    <img class="image" src="{{ url_for('static', filename='image.jpeg') }}" 
+    alt="My image" 
+    width="250px">
+    <br>
+
+<button id="yesButton">DA</button>
+<button id="noButton">NE</button>
+<div id="message"></div>
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+{% endblock %}
